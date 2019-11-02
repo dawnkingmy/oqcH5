@@ -1,0 +1,47 @@
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+
+body {
+    background: lightgray;
+}
+
+.main {
+    margin: auto;
+    width: 600px;
+    height: 1200px;
+    background: white;
+}
+
+.block {
+    background: white;
+    width: 600px;
+    height: 100px;
+}
+
+.main .m_head {
+    position: fixed;
+    width: 600px;
+    height: 100px;
+    background: yellowgreen;
+}
+
+.main .m_body {
+    width: 100%;
+    height: 100%;
+    background: yellow;
+}
+
+.main .m_foot {
+    position: fixed;
+    width: 600px;
+    height: 100px;
+    bottom: 0;
+    background: darkturquoise;
+}
